@@ -1,0 +1,52 @@
+[
+    {
+        "product_id":0,
+        "productname":"Samsung Galaxy M31 (Ocean Blue, 6GB RAM, 128GB Storage)",
+        "product_type":"Phone📱",
+        "product_image":"https://images-eu.ssl-images-amazon.com/images/I/419Sb0zGlnL._SX300_SY300_QL70_FMwebp_.jpg",
+        "product_quantity":"25 Available",
+        "product_cost":"14999",
+        "discount":true,
+        "description":" Quad Camera Setup - 64MP (F1.8) Main Camera +8MP (F2.2) Ultra Wide Camera +5MP(F2.2) Depth Camera +5MP(F2.4) front facing Camera 6.4-inch(16.21 centimeters) Super Amoled - Infinity U Cut Display , FHD+ Resolution (2340 x 1080) , 404 ppi pixel density and 16M color support Android v10.0 operating system with 2.3GHz + 1.7GHz Exynos 9611 Octa core processor , 6GB RAM, 128GB internal memory expandable up to 512GB and dual SIM 6000 mAh Battery \n1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase" 
+    },
+    {
+        "product_id":1,
+        "productname":" Sandisk Pendrive",
+        "product_type":"Electronics",
+        "product_image":" https://m.media-amazon.com/images/I/419iqDvugpS._SL1200_.jpg",
+        "product_quantity":"20 Available",
+        "product_cost":"1000",
+        "discount":false,
+        "description":"Pattern name: Cruzer Blade,Colour: RED & BLACK,Memory Storage Capacity:32 GB ,Brand:SanDisk ,Hardware Interface:USB 2.0 ,Read Speed:70 Megabytes Per Second"
+    },
+    {
+        "product_id":2,
+        "productname":"HP Chromebook 14a-na0002TU Laptop (Celeron N4020/4GB/64GB SSD/Chrome OS/Integrated Graphics), Ceremic White, 35.6 cm (14 inch)Style name:Touchscreen + Ceramic White",
+        "product_type":"Laptop",
+        "product_image":"https://m.media-amazon.com/images/I/61Gnrgw0mrL._SL1080_.jpg",
+        "product_quantity":"15 Available",
+        "product_cost":"15000",
+        "discount":true,
+        "description":"1.1GHz Intel Celeron N4020 processor \n4GB DDR4 RAM \n64GB SSD  \n35.5 cm (14-inch) screen, Intel UHD 600 Graphics \nChrome OS operating system \n1.46kg laptop"
+     },
+    {
+        "product_id":3,
+        "productname":"Mi 80 cm (32 inches) HD Ready Android Smart LED TV 4A PRO | L32M5-AL (Black)",
+        "product_type":"Television",
+        "product_image":"https://m.media-amazon.com/images/I/71Z+l05eSIS._SL1188_.jpg",
+        "product_quantity":"14",
+        "product_cost":"16,999.00",
+        "discount":true,
+        "description":"Resolution: HD Ready Android TV (1366x768) | Refresh Rate: 60 hertz\nConnectivity: 3 HDMI ports to connect set top box, Blu Ray players, gaming console | 2 USB ports to connect hard drives and other USB devices\nSound: 20 Watts Output | Dolby+ DTS-HD\nSmart TV Features : Built-In Wi-Fi | PatchWall | Netflix | Prime Video | Disney+Hotstar and more | Android TV 9.0 | Google Assistant\nDisplay : LED Panel | Vivid Picture engine\nWarranty Information: 1 year warranty on product and 1 year extra on \nEasy returns: This product is eligible for replacement within 10 days of delivery in case of any product defects, damage or features not matching the description provided"
+    },
+    {
+        "product_id":4,
+        "productname":"JBL Cinema SB231, 2.1 Channel Dolby Digital Soundbar with Wired Subwoofer for Deep Bass, Home Theatre with Remote, HDMI ARC, Bluetooth & Optical",
+        "product_type":"Home Theater",
+        "product_image":"https://m.media-amazon.com/images/I/71VUurS4ByL._SL1500_.jpg",
+        "product_quantity":"19",
+        "product_cost":"1500",
+        "discount":false,
+        "description":"Connectivity Technology Wireless,Bluetooth,HDMI \nSpeaker Type : Soundbar \n Brand:JBL\nModel Name:Cinema SB231\nRecommended Uses For Product.For Computers, For Smartphones or Tablets\nAbout this item\n110 Watt Output Powerful 2.1 Channel Soundbar with wired Subwoofer\nSubwoofer for Deep and Thrilling Bass"
+    }
+]
