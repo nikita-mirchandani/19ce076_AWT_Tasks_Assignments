@@ -1,0 +1,22 @@
+Create Profile page with proper validation and form-control for following information 
+using NodeJs and Bootstrap only.
+
+First Name and Last name
+	
+Email-id
+	
+Mobile Number
+	
+Date of Birth
+	
+Gender
+	
+Address
+	
+Select Institute
+	
+Select Department
+	
+Select Semester
+	
+Display all information in HTML Table.
