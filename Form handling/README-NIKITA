@@ -1,0 +1,130 @@
+
+// first of all open terminal and write below command to include all files inside new folder named react-form
+// npx create-react-app react-form
+// A react-form folder is being created and inside it we have all necesaary files.
+// so write below command and it will open browser
+// PS D:\Study\5th sem\AWT\Form handling\react-form> npm start 
+// Now go in react-form folder and inside it go to public folder and open index.html--> there you'll find the html code of the browser
+// Then go to src folder and inside it open index.js file and ther's this logic of logo and some sentence
+// now u can edit the code inside file src/app.js 
+// remove previous code between
+// { <div className="App">----------------code here------------ <div>}
+// so after that u can write whatever u want
+// now create one components folder inside src folder  and inside components make a new file signupform.js
+// write rfce inside it and the basic sniippet will be created of react
+
+import React from 'react'
+
+function signupform() {
+    return (
+        <div>
+         <here goes the html code>   
+        </div>
+    )
+}
+
+export default signupform
+
+
+this type of above code will be created
+download one snippet of react --> ES7 react/REDEX
+
+ <here goes the html code> --> type any code like This is signup form
+ and include this signupform.js file in app.js
+ u have to run it again to see changes so run again the file(i.e.compile again)
+
+only save and result will be loaded in browser
+
+Now inside Signup.js file(i renamed the file)
+<h1>welcome to Signup</h1>
+after this write code for form
+
+ <form>
+                <label htmlFor="uname">Enter Username</label>
+                <input type='text' name='uname'></input>
+
+                <label htmlFor="email">Enter Email</label>
+                <input type='email' name='email'></input>
+
+                <label htmlFor="pass">Enter Password</label>
+                <input type='text' name='pass'></input>
+
+                <label htmlFor="cpass">Enter Confirm Password</label>
+                <input type='text' name='cpass'></input>
+            </form>
+
+
+this code should be added 
+but lets make it look more good by changing in app.css file
+
+
+label{
+  font-weight: bold;
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+input[type='text'],
+input[type='email']{
+  display: block;
+  width: 500px;
+  margin-left: 10px;
+  padding:8px 12px;
+  font-size: 14px;
+  line-height: 1.45;
+  color:#555;
+  background-color: #888;
+  border: 2px solid #697;
+
+}
+
+
+react-hook-form and react-formik   ----> both are used to make form(find it in google)
+
+We are going to use formik
+hence start terminal and move to react-form and type npm install formik
+after this ..
+open Signup.js and write import {useFormik} from 'formik'
+
+
+ok the below code is that code:
+
+
+import {useFormik} from 'formik'
+
+function Signup() {
+    const formik = useFormik({
+        initialValues:{
+            uname:'',
+            email:'',
+            pass:'',
+            cpass:'',
+        }
+    })
+    return....
+
+
+
+    here in the initial values we need to write those data which we want in form in browser
+    inside console u may see which values are already deafult sett as uname pass and all but they are not seen in form ..only in console..
+    
+function Signup() {
+    const formik = useFormik({
+        initialValues:{
+            uname:'Nikki',
+            email:'email@gmail.com',
+            pass:'passwordishere',
+            cpass:'passwordishere',
+        }
+    })
+    console.log("The values are: " ,formik.values);
+
+    so you can check using above code
+
+                <form onSubmit ={formik.handleSubmit}>
+                
+                
+                <name='uname' onChange={formik.handleChange} values = {formik.values.uname}
+
+    theswe much changes are required inside form ok
